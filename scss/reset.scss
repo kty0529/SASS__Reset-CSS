@@ -2,14 +2,11 @@
 * Reset CSS - https://wallel.com
 */
 
-*,
-*:before,
-*:after {
+*, ::before, ::after {
 	box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
 	margin: 0;
 	padding: 0;
 }
@@ -23,18 +20,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-main,
-header,
-footer,
-section,
-article,
-aside,
-nav,
-hgroup,
-details,
-menu,
-figure,
-figcaption {
+main, header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption {
 	display: block;
 }
 
@@ -57,15 +43,7 @@ img {
 	height: auto;
 }
 
-img,
-iframe,
-video,
-object,
-embed,
-button,
-select,
-input,
-textarea {
+img, iframe, video, object, embed, button, select, input, textarea {
 	margin: 0;
 	padding: 0;
 	max-width: 100%;
@@ -93,8 +71,7 @@ $inputType: ('text', 'search', 'tel', 'url', 'email', 'password', 'submit');
 	}
 }
 
-button,
-select {
+button, select {
 	text-transform: none;
 	cursor: pointer;
 }
@@ -149,15 +126,12 @@ small {
 	font-size: 80%;
 }
 
-code,
-kbd,
-samp {
-	font-family: 'monospace', sans-serif;
+code, kbd, samp {
+	font-family: 'Consolas', 'monospace', sans-serif;
 	font-size: 1em;
 }
 
-sub,
-sup {
+sub, sup {
 	position: relative;
 	font-size: 75%;
 	line-height: 0;
@@ -172,12 +146,7 @@ sup {
 	top: -0.5em;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
@@ -213,9 +182,7 @@ h6 {
 	}
 }
 
-.blind,
-.sr-only,
-.screen-reader-text {
+.blind, .sr-only, .screen-reader-text {
 	position: absolute;
 	display: block;
 	margin: -1px;
